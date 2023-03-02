@@ -1,0 +1,118 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0), rgba(0,0,0,0.5)), url("https://assets.nicepagecdn.com/728fb769/4228357/images/htmlaiartbackground.png");
+  background-position: 0% 0%;
+  background-size: 1500px;
+  width: 1500px;
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+
+#sec-c2eb {
+  padding-top: 300px;
+}
+
+
+.u-section-1 .u-sheet-1 {
+  min-height: 800px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 20px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 600px;
+  }
+}
+
+.u-section-2 {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-4 {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 290px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 7rem;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 150px;
+}
+
+.u-section-2 .u-text-1 {
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-text-2 {
+  margin-left: 1000;
+  margin-right: auto;
+  margin-bottom: 6px;
+}
+
+canvas {
+  float: right;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+#dalle_column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+#google_column{
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  align-items: left;
+  width: 30%;
+  margin: left;
+  display: block;
+}
+
+.vertical {
+  border-left: 6px solid rgb(255, 255, 255);
+  height: 30000px;
+  position:absolute;
+  left: 50%;
+}
+
