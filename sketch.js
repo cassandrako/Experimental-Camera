@@ -2,7 +2,7 @@ import {Configuration, OpenAIApi } from 'openai';
 import { writeFileSync } from 'fs';
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: 'input your api key',
 });
 
 const openai = new OpenAIApi(configuration);
